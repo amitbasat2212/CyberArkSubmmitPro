@@ -18,6 +18,8 @@ body{
 #title{
     grid-area: h;
     color: #3498db;
+    font-size:90px;
+
 }
 
 #posts{
@@ -99,5 +101,12 @@ body{
 
 .delete:active{
     background-color: #e1894a;
+}
+
+.textfornewComment{
+    border-radius: 6px;
+    padding: 4px;
+    padding-right: 100px;
+    margin-left: 5px;
 }
 

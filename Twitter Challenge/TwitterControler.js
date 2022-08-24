@@ -8,6 +8,7 @@ TweitterRender.renderPosts(posts);
 const post=function(){
     let UserTweet=$('#input').val()
     TwitterData.AddPost(UserTweet);
+    $('#input').val("")
     TweitterRender.renderPosts(posts);   
    
 }
